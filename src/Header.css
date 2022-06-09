@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid whitesmoke ;
+    height: 75px;
+   
 }
 
 .header__left{
@@ -12,11 +14,46 @@
 
 .header__left > img {
     object-fit: contain;
-    height:80px;
-    padding-left: 0;
+    height: 20px;
+    margin-left: 5px;
 }
 
 .header__left > button{
     margin-left: 10px;
-    padding-right: 0;
 }
+
+.header__middle{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 8px; 
+}
+
+.header__middle > .MuiSvgIcon-root{
+    color: grey;
+    padding: 0 5px;
+}
+
+.header__middle > input{
+    border: none;
+    width: 300px;
+    padding: 10px;
+    outline-width: 0;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.header__right{
+    display:flex;
+    margin-right: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__right > button{
+    margin-right: 5px;
+}
+
