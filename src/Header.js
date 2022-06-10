@@ -22,9 +22,10 @@ function Header() {
                 <SearchIcon/>
             </IconButton> 
             <input type="text" placeholder='Search mail' />
-            <IconButton>
-                <TuneIcon/>
-            </IconButton>
+                <IconButton>
+                    <TuneIcon/>
+                </IconButton>
+            
         </div>
         <div className="header__right">
             <IconButton>
