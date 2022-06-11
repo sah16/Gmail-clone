@@ -11,10 +11,13 @@
 
 .sidebarOptions:hover,
 .sidebarOptions:hover>p,
-.sidebarOptions:hover>h3{
+.sidebarOptions:hover>h3,
+.sidebarOptions--active,
+.sidebarOptions--active > p,
+.sidebarOptions--active >h3{
     background-color: #fcecec;
     color: #c04b37;
-    font-weight: 800 !important;
+    font-weight: 700 !important;
 }
 
 .sidebarOptions > .MuiSvgIcon-root{
@@ -31,6 +34,10 @@
     margin-left: 10px;
     font-size: 14px;
     font-weight: 400;
+}
+
+.sidebarOptions--active > p{ 
+    display: inline !important;
 }
 
 .sidebarOptions:hover > p {
