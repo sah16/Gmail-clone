@@ -15,8 +15,11 @@ function EmailList() {
                     <Redo />
                 </IconButton>
                 <IconButton>
-                    <MoreVert />
+                    <MoreVert/>
                 </IconButton>
+            </div>
+            <div className="emailList__settingsRight">
+
             </div>
         </div>
     </div>
