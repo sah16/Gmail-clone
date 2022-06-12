@@ -25,7 +25,7 @@
 
 .header__middle{
     display: flex;
-    flex: 0.5;
+    flex: 0.7;
     align-items: center;
     margin: 0 5px;
     background-color: whitesmoke;
