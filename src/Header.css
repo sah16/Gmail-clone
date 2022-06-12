@@ -44,8 +44,7 @@
 
 .header__middle > input{
     border: none;
-    width: 480px;
-    margin: 0 10px;
+    width: 100%;
     padding: 10px;
     outline-width: 0;
     font-size: medium;
