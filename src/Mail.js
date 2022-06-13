@@ -14,44 +14,44 @@ function Mail() {
               <IconButton onClick={() => navigate("/")}>
                 <ArrowBack/>
               </IconButton>
-                <IconButton>
-                  <Archive/>
-                </IconButton>
-                <IconButton>
-                  <ReportGmailerrorred />
-                </IconButton>
-                <IconButton>
-                  <Delete />
-                </IconButton>
-                <IconButton>
-                  <MarkAsUnread/>
-                </IconButton>
-                <IconButton>
-                  <AccessTimeFilled/>
-                </IconButton>
-                <IconButton>
-                  <AddTask/>
-                </IconButton>
-                <IconButton>
-                  <DriveFileMove/>
-                </IconButton>
-                <IconButton>
-                  <Label/>
-                </IconButton>
-                <IconButton>
-                  <MoreVert/>
-                </IconButton>
+              <IconButton>
+                <Archive/>
+              </IconButton>
+              <IconButton>
+                <ReportGmailerrorred />
+              </IconButton>
+              <IconButton>
+                <Delete />
+              </IconButton>
+              <IconButton>
+                <MarkAsUnread/>
+              </IconButton>
+              <IconButton>
+                <AccessTimeFilled/>
+              </IconButton>
+              <IconButton>
+                <AddTask/>
+              </IconButton>
+              <IconButton>
+                <DriveFileMove/>
+              </IconButton>
+              <IconButton>
+                <Label/>
+              </IconButton>
+              <IconButton>
+                <MoreVert/>
+              </IconButton>
           </div>
           <div className="mail__toolsRight">
-          <IconButton>
-                    <ChevronLeft />
-                </IconButton>
-                <IconButton>
-                    <ChevronRight/>
-                </IconButton>
-                <IconButton>
-                  <ExitToApp />
-                </IconButton>
+              <IconButton>
+                <ChevronLeft />
+              </IconButton>
+              <IconButton>
+                <ChevronRight/>
+              </IconButton>
+              <IconButton>
+                <ExitToApp />
+              </IconButton>
           </div>
         </div>
         <div className="mail__body">
@@ -59,7 +59,13 @@ function Mail() {
             <h2>Subject</h2>
             <LabelImportant className="mail__important" />
             <p>Title</p>
-            <p>10pm</p>
+            <p className='mail__time'>10pm</p>
+          </div>
+
+          <div className="mail__message">
+            <p>
+              This is a message
+            </p>
           </div>
         </div>
     </div>
