@@ -4,7 +4,14 @@ import './Mail.css'
 function Mail() {
   return (
     <div className="mail">
-        <h1>whatsup</h1>
+        <div className="mail__tools">
+          <div className="mail__toolsLeft">
+
+          </div>
+          <div className="mail__toolsRight">
+            
+          </div>
+        </div>
     </div>
   )
 }
