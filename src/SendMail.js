@@ -9,7 +9,7 @@ import { db } from './firebase';
 import firebase from 'firebase/compat/app';
 
 function SendMail() {
-   const { register, handleSubmit , watch , formState: {errors}} = useForm();
+   const { register, handleSubmit, watch , formState: {errors}} = useForm();
 
    const onSubmit = (formData) =>{
      console.log(formData);
