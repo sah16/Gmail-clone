@@ -66,5 +66,6 @@
 
 .header__right > .MuiAvatar-root{
     margin-right: 10px;
+    cursor: pointer;
 }
 
